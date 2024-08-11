@@ -1,4 +1,4 @@
-import Camp from "@/components/Camp";
+// import Features from "@/components/Features";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import How from "@/components/How";
@@ -10,8 +10,7 @@ export default function Home() {
       <Hero />
       <How/>
       <Guide />
-      <Slider/>
-      <Camp/>
+      <Slider/>    
       
     </>
   )

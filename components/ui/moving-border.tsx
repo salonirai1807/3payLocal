@@ -32,11 +32,14 @@ export function ButtonMoving({
   return (
     <Component
       className={cn(
-        "relative text-xl h-12 w-64 p-[1px] overflow-hidden", // Increased width
+        "relative text-xl h-12 w-full p-[1px] overflow-hidden", 
         containerClassName
       )}
       style={{
         borderRadius: borderRadius,
+        borderWidth: "2px", 
+        borderColor: "gray", 
+        borderStyle: "solid",
       }}
       {...otherProps}
     >
@@ -47,7 +50,7 @@ export function ButtonMoving({
         <MovingBorder duration={duration} rx="10%" ry="10%">
           <div
             className={cn(
-              "h-full w-full opacity-[0.8] bg-[radial-gradient(var(--sky-500)_40%,transparent_60%)]",
+              "h-10 w-10 opacity-[0.9] bg-sky-500", 
               borderClassName
             )}
           />
@@ -56,7 +59,7 @@ export function ButtonMoving({
 
       <div
         className={cn(
-          "relative bg-black border border-gray-800 text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-black border border-gray-800 text-white flex items-center justify-center w-full h-full text-sm font-mono",
           className
         )}
         style={{
@@ -137,4 +140,3 @@ export const MovingBorder = ({
     </>
   );
 };
-

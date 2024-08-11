@@ -1,5 +1,39 @@
-import { PEOPLE_URL } from "@/constants";
-import Image from "next/image";
+
+
+
+
+const slides = [
+  {
+    id: 1,
+    description:
+      "3Pay simplifies the process of adding cryptocurrency payment options to Web 2.0 platforms. By installing the 3Pay package, developers can easily integrate a payment button into their sites, leveraging system compatibility and popular libraries such as Next.js and React. This feature ensures a seamless start for developers looking to incorporate cryptocurrency payments into their online services.",
+    heading: "Effortless Integration for Developers:",
+  },
+  {
+    id:2,
+    description: "Users have the flexibility to make payments using a variety of tokens, including USDC, USDT, MATIC, and other stablecoins. This diversity accommodates different user preferences and ensures that 3Pay remains versatile and accessible for a broad audience interested in utilizing cryptocurrency for online transactions.",
+    heading: "Wide Range of Supported Tokens:",
+  },
+  {
+    id:3,
+    description:
+      "3Pay addresses the challenge of token compatibility by offering a built-in bridging feature. This allows users to convert their cryptocurrencies into MATIC easily, ensuring smooth transactions regardless of the tokens initially held. This feature enhances the overall payment experience by removing barriers related to token diversity.",
+    heading: "Built-in Bridging Feature for Token Conversion:",
+  },
+  {
+    id:4,
+    description:
+      "Leveraging the Polygon network, 3Pay benefits from incredibly low gas fees, making transactions more affordable, faster, and more reliable. This strategic choice of network infrastructure positions 3Pay as a cost-effective solution for integrating cryptocurrency payments into traditional web platforms, thereby promoting the adoption of digital currencies in everyday online activities.",
+    heading: "Low-Cost Transactions on the Polygon Network:",
+  },
+];
+
+
+
+
+
+
+{/*import Image from "next/image";
 
 interface CampProps {
   backgroundImage: string;
@@ -82,4 +116,4 @@ const Camp = () => {
   )
 }
 
-export default Camp
+export default Camp*/}

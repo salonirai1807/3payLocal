@@ -76,7 +76,7 @@ const Guide = () => {
           <h2 className="flex justify-center bold-40 lg:bold-64 text-customDBlue">
             Empowering Web 2.0 with Seamless Crypto Payments
           </h2>
-          <p className="flex justify-center regular-16 text-bold text-gray-50  mt-10">
+          <p className="flex justify-center regular-16 text-bold text-neutral-200  mt-10">
             3Pay revolutionizes online transactions by integrating
             cryptocurrency payments into Web 2.0 platforms effortlessly.
             Designed for simplicity and efficiency, 3Pay allows developers to

@@ -26,12 +26,22 @@ body {
   }
   
   button:hover {
-    @apply bg-gray-900;
+    @apply bg-zinc-900;
   }
   
   button:focus {
     outline: none;
   }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  } 
+  
   .btn_green  { 
     @apply  border-green-50 bg-green-50 px-8 py-5 text-white
   }

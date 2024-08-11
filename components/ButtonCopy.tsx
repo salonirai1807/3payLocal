@@ -30,18 +30,18 @@ const Button: React.FC<ButtonProps> = ({ type, title, icon, variant, link }) => 
   return (
     <div className="relative inline-block">
       <ButtonMoving
-        borderRadius="0.5rem"
+        borderRadius="0.5rem" 
         type={type}
         onClick={handleClick}
-        className={`bg-black text-white border-gray-800 ${variant} hover:bg-gray-800 transition duration-200 ease-in-out transform hover:scale-105`}
+        className={`bg-black text-white border-gray-800 ${variant} hover:bg-zinc-900 transition duration-200 ease-in-out transform hover:scale-105`}
       >
-        <label className="text-sm font-mono whitespace-nowrap cursor-pointer">
+        <label className="text-sm font-mono whitespace-nowrap pr-24 cursor-pointer"> {/* Monospaced font for command-line look */}
           {title}
         </label>
         {showCheckIcon ? (
-          <Image src="/check.png" alt="Checked" width={24} height={24} />
+          <Image src="/check.png" alt="Checked" width={18} height={18} />
         ) : (
-          icon && <Image src={icon} alt={title} width={24} height={24} />
+          icon && <Image src={icon} alt={title} width={18} height={18} />
         )}
       </ButtonMoving>
     </div>
@@ -49,8 +49,6 @@ const Button: React.FC<ButtonProps> = ({ type, title, icon, variant, link }) => 
 };
 
 export default Button;
-
-
 
 
 

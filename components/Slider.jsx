@@ -6,7 +6,7 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 const Slider = () => {
   return (
-    <div className="h-[30rem] rounded-md flex flex-col antialiased bg-customLBlue dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[30rem]  flex flex-col antialiased bg-customLBlue dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
 
 
       <InfiniteMovingCards
