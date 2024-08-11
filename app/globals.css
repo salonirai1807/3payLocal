@@ -21,11 +21,22 @@ body {
   .btn_white_text  { 
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
+  .btn_black_text { 
+    @apply border-gray-800 bg-black text-white px-4 py-2 font-mono;
+  }
+  
+  button:hover {
+    @apply bg-gray-900;
+  }
+  
+  button:focus {
+    outline: none;
+  }
   .btn_green  { 
     @apply  border-green-50 bg-green-50 px-8 py-5 text-white
   }
   .btn_dark_green { 
-    @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+    @apply  bg-black px-8 py-4 text-white transition-all hover:bg-gray-50
   }
   .btn_dark_green_outline  { 
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
