@@ -1,4 +1,4 @@
-// import Features from "@/components/Features";
+import Feature from "@/components/Feature";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import How from "@/components/How";
@@ -11,6 +11,7 @@ export default function Home() {
       <How/>
       <Guide />
       <Slider/>    
+      <Feature/>
       
     </>
   )
