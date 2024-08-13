@@ -13,12 +13,12 @@ export default function Feature() {
       className="relative font-poppins bg-customLBlue px-10 py-10 md:py-20 "
     >
       <h2 className="flex justify-center bold-40 lg:bold-64 text-white pb-12">
-        <strong>Get to Know Us!</strong>
+        <strong>Our Services</strong>
       </h2>
 
-      <div className="relative z-10 w-full md:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="relative z-10 w-full md:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
         {list.map((item, index) => (
-          <FeatureCard featureItem={item} />
+          <FeatureCard featureItem={item} key={index} />
         ))}
       </div>
 

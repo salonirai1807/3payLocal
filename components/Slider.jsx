@@ -27,78 +27,62 @@ const Slider = () => {
 
 const testimonials1 = [
   {
-    image: "/ethereum.png",
+    image: '/eth.png',
     name: "ethereum",
   },
   {
-    image: "/osmosis.png",
-    name: "osmosis",
+    image: '/tron.png',
+    name: "tron",
   },
   {
-    image: "/kava.png",
+    image: '/polygon.png',
     name: "kava",
   },
   {
-    image: "/filecoin.png",
-    name: "filecoin",
+    image: '/usdc.png',
+    name: "usdc",
   },
   {
-    image: "/moonbeam1.png",
-    name: "moonbeam",
+    image: '/base.png',
+    name: "base",
   },
   {
-    image: "/mantle.png",
-    name: "mantle",
-  },
-  {
-    image: "/arbitrum.png",
-    name: "arbitrum",
-  },
-  {
-    image: "/fantom.png",
+    image: '/fantom.png',
     name: "fantom",
   },
   {
-    image: "/optimism.png",
-    name: "optimism",
-  },
+    image: '/injective.png',
+    name: "injective",
+  }
 ];
 
 const testimonials2 = [
   {
-    image: "/avalanche.png",
-    name: "avalanche",
+    image: '/solana.png',
+    name: "solana",
   },
   {
-    image: "/polygon.png",
-    name: "polygon",
+    image: '/polka.png',
+    name: "polka",
   },
   {
-    image: "/terra.png",
-    name: "terra",
+    image: '/bitcoin.png',
+    name: "bitcoin",
   },
   {
-    image: "/secret.png",
-    name: "secret",
+    image: '/eos.png',
+    name: "eos",
   },
   {
-    image: "/dymension.png",
-    name: "dymension",
-  },
-  {
-    image: "/cosmos.png",
-    name: "cosmos",
-  },
-  {
-    image: "/sei.png",
+    image: '/sei.png',
     name: "sei",
   },
   {
-    image: "/injective.png",
-    name: "injective",
+    image: '/bnb.png',
+    name: "bnb",
   },
   {
-    image: "/celestia.png",
+    image: '/celestia.png',
     name: "celestia",
   },
 ];

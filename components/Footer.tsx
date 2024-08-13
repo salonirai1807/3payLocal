@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="logo.jpeg" alt="logo" width={74} height={29} />
+            <Image src="logo.png" alt="logo" width={74} height={29} />
           </Link>
 
-          <div className="flex flex-wrap gap-10 sm:justify-between text-customDBlue md:flex-1">
+          <div className="flex flex-wrap gap-10 sm:justify-between text-center text-customDBlue md:flex-1">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
                 <ul className="regular-14 flex flex-col text-gray-20 gap-4">

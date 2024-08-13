@@ -15,11 +15,10 @@ const How = () => {
         <WobbleCard containerClassName="col-span-1 border-2 border-customDBlue bg-customLBlue lg:col-span-2 h-full min-h-[500px] lg:min-h-[300px] hover:bg-zinc-900 transition-colors duration-300">
           <div className="max-w-xs">
             <h2 className="text-left text-balance text-base md:text-lg lg:text-xl font-semibold tracking-[-0.015em] text-neutral-200">
-              Gippity AI powers the entire universe
+              Effortless Component Generation with Bash Commands
             </h2>
             <p className="mt-4 text-left  text-base/6 text-gray-20">
-              With over 100,000 monthly active bot users, Gippity AI is the most
-              popular AI platform for developers.
+              3Pay leverages bash commands to seamlessly generate custom components, streamlining the development process and reducing manual coding effort.
             </p>
           </div>
           <Image
@@ -33,22 +32,20 @@ const How = () => {
 
         <WobbleCard containerClassName="col-span-1 border-2 border-customDBlue bg-customLBlue min-h-[300px] hover:bg-zinc-900 transition-colors duration-300">
           <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-neutral-200">
-            No shirt, no shoes, no weapons.
+            Seamless Cross-Chain Asset Bridging
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left text-base/6 text-gray-20">
-            If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          <p className="mt-4 max-w-[66rem] text-left text-base/6 text-gray-20">
+            3Pay's cross-chain communication enables smooth asset transfers between Ethereum and supported chains, enhancing liquidity and expanding usability.
           </p>
         </WobbleCard>
 
         <WobbleCard containerClassName="col-span-1 border-2 border-customDBlue lg:col-span-3 bg-customLBlue min-h-[500px] lg:min-h-[600px] xl:min-h-[300px] hover:bg-zinc-900 transition-colors duration-300">
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-neutral-200">
-              Signup for blazing-fast cutting-edge state of the art Gippity AI
-              wrapper today!
+              Simplified Integration with Next.js & React
             </h2>
             <p className="mt-4 max-w-[26rem] text-left text-base/6 text-gray-20">
-              With over 100,000 monthly active bot users, Gippity AI is the most
-              popular AI platform for developers.
+              3Pay simplifies integration by auto-generating custom components for popular frameworks like Next.js and React, ensuring a smooth development experience.
             </p>
           </div>
           <Image
